@@ -17,7 +17,7 @@ while start:
 #จำนวนตี 
     attack = int(input("เลือกตีกี่รอบ :"))
     for i in range(attack):
-         print("Welcome to your item") 
+         print("-----Welcome to your item----") 
          print("choose weapon [1]" , sword)
          print("choose weapon [2]" , knife)
          print("choose weapon [3]" , lisaber)
@@ -33,7 +33,7 @@ while start:
          elif u == 3 :
               mon -= lisaber
               print("it lisaber")
-
+    start = False
     if (mon <= 200 ) :
         print("win")
     elif (mon >= 200) :
