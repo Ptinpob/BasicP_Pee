@@ -33,9 +33,12 @@ while start:
          elif u == 3 :
               mon -= lisaber
               print("it lisaber")
-              
-    print("lose")
-    break
+
+    if (mon <= 200 ) :
+        print("win")
+    elif (mon >= 200) :
+        print("lose")
+        break
 
 
  
